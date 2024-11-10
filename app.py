@@ -21,7 +21,7 @@ def to_markdown(text):
   return Markdown(textwrap.indent(text, '> ', predicate=lambda _: True))
 
 # os.getenv("GOOGLE_API_KEY")
-genai.configure(api_key="")
+genai.configure(api_key="AIzaSyCtTUOTgF2Rg7G7Pnrg9T7qorB10w_O62g")
 
 ## Function to load OpenAI model and get response
 
@@ -32,9 +32,9 @@ def get_gemini_response(question):
 
 ##initialize our streamlit app
 
-st.set_page_config(page_title="Coal Industry Chatbot")
+st.set_page_config(page_title="Chatbot")
 
-st.header("Coal Industry")
+st.header("ChatGPT Clone")
 
 input=st.text_input("Input: ",key="input")
 
