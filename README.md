@@ -1,6 +1,8 @@
 ChatGPT-Clone-Using-Streamlit
 A conversational AI application built using Streamlit that mimics the functionality of ChatGPT. This project demonstrates the power of natural language processing (NLP) and conversational AI using OpenAI's language model.
 
+Check Out The Deployed Link - https://chatgpt-clone-using-app-alsxmagrhtmxxdv7fje8zh.streamlit.app/
+
 🚀 Features
 User-friendly interface built with Streamlit
 Conversational AI experience similar to ChatGPT
